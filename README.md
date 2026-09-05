@@ -12,7 +12,7 @@ This is a standalone static sample; it does not call the backend Lead sample.
 - Node.js **20.19+ or 22.12+** and npm (22.12+ recommended).
   Earlier Node 20/22 releases are not supported by Vite 8.
 - To deploy: permission to create/publish a Custom Frontend Module.
-- For CLI deployment: CLI 0.10.0 and a **Workspace API key**.
+- For CLI deployment: the latest Cogover Dev CLI and a **Workspace API key**.
   A backend Project key and `cogover-dev login` are not needed.
 
 ## 1. Install and run
@@ -101,7 +101,7 @@ If the version fails, fix the reported build/archive issue and create a new one.
 ### Option B: Cogover Dev CLI
 
 ```bash
-npm install --global @cogover/dev-cli@0.10.0
+npm install --global @cogover/dev-cli
 cogover-dev --version
 cp cogover.example.json cogover.json
 ```
