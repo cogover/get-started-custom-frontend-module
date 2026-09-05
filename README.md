@@ -1,5 +1,7 @@
 # Get Started: Custom Frontend Module
 
+[English](README.md) | [Tiếng Việt](README.vi.md)
+
 A complete vanilla TypeScript + Vite page ready to build for a Cogover Custom
 Frontend Module. It displays the onboarding "Hello" card and loads assets using
 relative URLs, including when hosted under a slot such as `/_cm_1/`.
